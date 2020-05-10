@@ -6,8 +6,8 @@
 // @author       You
 // @match        https://www.voxed.net/*
 // @grant        none
-// @updateURL    https://raw.githubusercontent.com/randomperson190/VoxedExtensiones/master/Voxed%20-%20Script3.js
-// @downloadURL  https://raw.githubusercontent.com/randomperson190/VoxedExtensiones/master/Voxed%20-%20Script3.js
+// @updateURL    https://raw.githubusercontent.com/randomperson190/VoxedExtensiones/master/Script3.js
+// @downloadURL  https://raw.githubusercontent.com/randomperson190/VoxedExtensiones/master/Script3.js
 // ==/UserScript==
 
 var Contador = 0;
