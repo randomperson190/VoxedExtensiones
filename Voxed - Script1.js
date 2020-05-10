@@ -7,6 +7,8 @@
 // @match        https://www.voxed.net/*
 // @grant        none
 // @require      http://code.jquery.com/jquery-3.4.1.min.js
+// @updateURL    https://raw.githubusercontent.com/Charcoal-SE/Userscripts/master/fdsc/fdsc.meta.js
+// @downloadURL  https://raw.githubusercontent.com/Charcoal-SE/Userscripts/master/fdsc/fdsc.user.js
 // ==/UserScript==
 
 ///////////////////////////////////////////////
