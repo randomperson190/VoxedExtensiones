@@ -6,7 +6,6 @@
 // @author       You
 // @match        https://www.voxed.net/*
 // @grant        none
-// @require      http://code.jquery.com/jquery-3.4.1.min.js
 // @updateURL    https://raw.githubusercontent.com/randomperson190/VoxedExtensiones/master/Script1.js
 // @downloadURL  https://raw.githubusercontent.com/randomperson190/VoxedExtensiones/master/Script1.js
 // ==/UserScript==
