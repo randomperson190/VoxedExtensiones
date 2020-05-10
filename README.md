@@ -1,4 +1,5 @@
-Download and install the Tampermonkey extension for Chrome from here: https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo?hl=en
+Instalación de Tampermonkey en Chrome
+https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo
 
 Click on the Tampermonkey icon and choose “Add new script”
 
