@@ -6,8 +6,8 @@
 // @author       You
 // @match        https://www.voxed.net/*
 // @grant        none
-// @updateURL    https://raw.githubusercontent.com/randomperson190/VoxedExtensiones/master/Voxed%20-%20Script2.js
-// @downloadURL  https://raw.githubusercontent.com/randomperson190/VoxedExtensiones/master/Voxed%20-%20Script2.js
+// @updateURL    https://raw.githubusercontent.com/randomperson190/VoxedExtensiones/master/Script2.js
+// @downloadURL  https://raw.githubusercontent.com/randomperson190/VoxedExtensiones/master/Script2.js
 // ==/UserScript==
 
 document.onkeyup = function (e) {
