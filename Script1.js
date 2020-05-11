@@ -1,14 +1,21 @@
 // ==UserScript==
-// @name         Voxed - Agregar botón de autoactualizar
+// @name         Voxed - Botón [AutoUpdate + EscribirFlechita (>)]
 // @namespace    http://tampermonkey.net/
 // @version      0.1
 // @description  try to take over the world!
 // @author       You
-// @match        https://www.voxed.net/*
+// @include      /.*www.voxed.net/[a-z]{3}/[a-z].*\
 // @grant        none
-// @updateURL    https://raw.githubusercontent.com/randomperson190/VoxedExtensiones/master/Script1.js
-// @downloadURL  https://raw.githubusercontent.com/randomperson190/VoxedExtensiones/master/Script1.js
+// @require      http://code.jquery.com/jquery-3.4.1.min.js
 // ==/UserScript==
+
+///////////////////////////////////////////////
+///////////////////////////////////////////////
+
+// #############
+// ### Regex ###
+// #############
+// https://www.debuggex.com/
 
 ///////////////////////////////////////////////
 ///////////////////////////////////////////////
@@ -24,16 +31,49 @@ function insertAfter(referenceNode, newNode) {
 ///////////////////////////////////////////////
 ///////////////////////////////////////////////
 
+// @@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+// @@@ Escritura de Flechita @@@
+// @@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+var PosicionActual;
+var TextoActual;
+var CantidadDeCaracteresActuales;
+var CaracteresMaximos = 3000;
+var $ = window.jQuery;
+function insert(str, index, value) {
+  return str.substr(0, index) + value + str.substr(index);
+}
+$("#commentTextarea").on("click mousedown mouseup dblclick keyup keypress textInput", function (e) {
+  PosicionActual = e.target.selectionStart;
+});
+
+///////////////////////////////////////////////
+///////////////////////////////////////////////
+
+// ##################################
+// ### Agregado de Nuevos Botones ###
+// ##################################
+
 var CantidadDeBotones = document.getElementsByClassName("attachButton tooltip-bottom").length - 1;
 var EstadoInicial = false;
 var div = document.getElementsByClassName("attachButton tooltip-bottom")[CantidadDeBotones];
-var el = document.createElement("div");
-el.className = "attachButton tooltip-bottom AutoUpdate";
-el.style = "font-size: 18px; padding-bottom: 3px; height: 37px;";
-el.innerText = "֍";
-insertAfter(div, el);
-document.getElementsByClassName("attachButton tooltip-bottom AutoUpdate")[0].addEventListener("click", myFunction);
-function myFunction() {
+var el1 = document.createElement("div");
+el1.className = "attachButton tooltip-bottom AutoUpdate";
+el1.style = "font-size: 18px; padding-bottom: 3px; height: 37px; user-select: none; -moz-user-select: none; -khtml-user-select: none; -webkit-user-select: none; -o-user-select: none;";
+el1.innerText = "֍";
+insertAfter(div, el1);
+var el2 = document.createElement("div");
+el2.className = "attachButton tooltip-bottom EscribirFlechita";
+el2.style = "font-size: 18px; user-select: none; -moz-user-select: none; -khtml-user-select: none; -webkit-user-select: none; -o-user-select: none;";
+el2.innerText = ">";
+insertAfter(el1, el2);
+
+// ####################################
+// ### Comportamiento de AutoUpdate ###
+// ####################################
+
+document.getElementsByClassName("AutoUpdate")[0].addEventListener("click", myFunction1);
+function myFunction1() {
   if (EstadoInicial == false) {
     document.getElementsByClassName("AutoUpdate")[0].style.backgroundColor = "#256587";
     EstadoInicial = true;
@@ -55,5 +95,23 @@ function myFunction() {
   }
   function myStopFunction() {
     clearInterval(myVar);
+  }
+}
+
+// #############################
+// ### Escritura de Flechita ###
+// #############################
+
+document.getElementsByClassName("EscribirFlechita")[0].addEventListener("click", myFunction2);
+function myFunction2() {
+  TextoActual = document.getElementById("commentTextarea").value;
+  CantidadDeCaracteresActuales = document.getElementById("commentTextarea").value.length;
+  if (CantidadDeCaracteresActuales < CaracteresMaximos) {
+    var TextoUltimo = insert(TextoActual, PosicionActual, ">");
+    document.getElementById("commentTextarea").value = TextoUltimo;
+    document.getElementById("commentTextarea").selectionStart = PosicionActual + 1;
+    document.getElementById("commentTextarea").selectionEnd = PosicionActual + 1;
+    document.getElementById("commentTextarea").focus();
+    PosicionActual++;
   }
 }
