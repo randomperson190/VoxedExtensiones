@@ -11,13 +11,8 @@ https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldm
 *Autoclickea en cargar comentarios al enviar tu comentario al Vox*
 
 
-#### • Script3: Control+Q escribir Flechita (>)
-*Con Control+Q escribe el caracter (>)*
+#### • Script3: [Control+Enter enviar comentario + Control+Q escribir Flechita (>)]
+*Permite hacer Control+Enter para enviar el comentario, también funciona con Control+NumpadIntro. También Control+Q para escribir el caracter (>)*
 
-
-#### • Script4: Control+Enter enviar comentario:
-*Permite hacer Control+Enter para enviar el comentario, también funciona con Control+NumpadIntro*
-
-
-#### • Script5: Ir a Comentario Primero / Último
+#### • Script4: Ir a Comentario Primero / Último
 *Agrega 2 flechas a la derecha de Categorias. Sea para dirigirse rápidamente al primer o último comentario del Vox*
