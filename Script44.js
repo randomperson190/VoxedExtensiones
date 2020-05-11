@@ -1,14 +1,14 @@
 // ==UserScript==
 // @name         Voxed - Ir a Comentario [Primero / Último]
 // @namespace    http://tampermonkey.net/
-// @version      0.2
+// @version      0.3
 // @description  try to take over the world!
 // @author       You
 // @include      /.*www.voxed.net/[a-z]{3}/.*\
 // @grant        none
 // @require      http://code.jquery.com/jquery-3.4.1.min.js
-// @updateURL    https://raw.githubusercontent.com/randomperson190/VoxedExtensiones/master/Script5.js
-// @downloadURL  https://raw.githubusercontent.com/randomperson190/VoxedExtensiones/master/Script5.js
+// @updateURL    https://raw.githubusercontent.com/randomperson190/VoxedExtensiones/master/Script4.js
+// @downloadURL  https://raw.githubusercontent.com/randomperson190/VoxedExtensiones/master/Script4.js
 // ==/UserScript==
 
 ///////////////////////////////////////////////
