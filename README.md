@@ -4,11 +4,11 @@ https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldm
 ---------------------------------------------------------------------------
 
 #### • Script1: Botón [AutoUpdate + EscribirFlechita (>)]
-*Agrega un 3er para constantemente actualizar los comentarios en el Vox al ser clickeado. Y agrega un 4to para escribir una flecita (>) para quienes no posean el caracter en el teclado.*
+*Agrega un 3er botón para constantemente actualizar los comentarios en el Vox si es clickeado. Y agrega un 4to botón para escribir una flecita (>) para quienes no posean el caracter en el teclado.*
 
 
 #### • Script2: Autocargar nuevos comentarios al clickear en Comentar
-*Autoclickea en cargar comentarios al acabar de haber envíado tu comentario al Vox*
+*Autoclickea en cargar comentarios al enviar tu comentario al Vox*
 
 
 #### • Script3: Control+Q escribir Flechita (>)
@@ -20,4 +20,4 @@ https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldm
 
 
 #### • Script5: Ir a Comentario Primero / Último
-*Agrega 2 flechas a la derecha de Categorias. Sea para dirigirse rápidamente primer comentario o último comentario del Vox*
+*Agrega 2 flechas a la derecha de Categorias. Sea para dirigirse rápidamente al primer o último comentario del Vox*
