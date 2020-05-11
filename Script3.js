@@ -11,7 +11,7 @@
 // @downloadURL  https://raw.githubusercontent.com/randomperson190/VoxedExtensiones/master/Script3.js
 // ==/UserScript==
 
-var PosicionActual;
+var PosicionActual = 0;
 var TextoActual;
 var CantidadDeCaracteresActuales;
 var CaracteresMaximos = 3000;
