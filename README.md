@@ -3,8 +3,12 @@ https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldm
 
 ---------------------------------------------------------------------------
 
-• Script1: Voxed - Agregar botón de autoactualizar
+• Script1: Botón AutoUpdate + EscribirFlechita (>)
 
-• Script2: Voxed - ControlEnter enviar comentario
+• Script2: Autocargar nuevos comentarios al clickear en Comentar
 
-• Script3: Voxed - Autocargar nuevos comentarios al clickear en Comentar
+• Script3: ControlQ escribir Flechita (>)
+
+• Script4: ControlEnter enviar comentario
+
+• Script5: Ir a Comentario Primero / Último
