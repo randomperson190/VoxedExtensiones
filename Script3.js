@@ -4,7 +4,7 @@
 // @version      0.1
 // @description  try to take over the world!
 // @author       You
-// @include      /.*www.voxed.net/[a-z]{3}/[a-z].*\
+// @include      /.*www.voxed.net/[a-z]{3}/.*\
 // @grant        none
 // @require      http://code.jquery.com/jquery-3.4.1.min.js
 // @updateURL    https://raw.githubusercontent.com/randomperson190/VoxedExtensiones/master/Script3.js
