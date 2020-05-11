@@ -1,7 +1,7 @@
 // ==UserScript==
-// @name         Voxed - Botón [AutoUpdate + EscribirFlechita (>)]
+// @name         Voxed - Botón [AutoUpdate y EscribirFlechita (>)]
 // @namespace    http://tampermonkey.net/
-// @version      0.5
+// @version      0.6
 // @description  try to take over the world!
 // @author       You
 // @include      /.*voxed.net/.*/.*\
