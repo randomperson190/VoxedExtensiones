@@ -1,7 +1,7 @@
 // ==UserScript==
-// @name         Voxed - [Control+Enter enviar comentario + Control+Q escribir Flechita (>)]
+// @name         Voxed - [Control+Enter enviar comentario y Control+Q escribir Flechita (>)]
 // @namespace    http://tampermonkey.net/
-// @version      0.5
+// @version      0.6
 // @description  try to take over the world!
 // @author       You
 // @include      /.*voxed.net/.*/.*\
