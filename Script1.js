@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Voxed - Botón [AutoUpdate y EscribirFlechita (>)]
 // @namespace    http://tampermonkey.net/
-// @version      0.6
+// @version      0.7
 // @description  try to take over the world!
 // @author       You
 // @include      /.*voxed.net/.*/.*\
@@ -37,7 +37,7 @@ function insertAfter(referenceNode, newNode) {
 // @@@ Escritura de Flechita @@@
 // @@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 
-var PosicionActual;
+var PosicionActual = 0;
 var TextoActual;
 var CantidadDeCaracteresActuales;
 var CaracteresMaximos = 3000;
