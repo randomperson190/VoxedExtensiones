@@ -1,19 +1,31 @@
 // ==UserScript==
-// @name         Voxed - ControlEnter enviar comentario
+// @name         Voxed - Autocargar nuevos comentarios al clickear en Comentar
 // @namespace    http://tampermonkey.net/
 // @version      0.1
 // @description  try to take over the world!
 // @author       You
-// @match        https://www.voxed.net/*
+// @include      /.*www.voxed.net/[a-z]{3}/[a-z].*\
 // @grant        none
 // @updateURL    https://raw.githubusercontent.com/randomperson190/VoxedExtensiones/master/Script2.js
 // @downloadURL  https://raw.githubusercontent.com/randomperson190/VoxedExtensiones/master/Script2.js
 // ==/UserScript==
 
-document.onkeyup = function (e) {
-  // ### Control + Enter ###
-  if (e.ctrlKey && e.which == 13) {
-    document.querySelectorAll(".buttonPress.newComment")[0].click();
+var Contador = 0;
+document.querySelectorAll(".buttonPress.newComment")[0].addEventListener("click", myFunction);
+function myFunction() {
+  var myVar = setInterval(myTimer, 1);
+  function myTimer() {
+    Contador++;
+    var CantidadDeComentariosNuevos = document.getElementsByClassName("commentsVoxCount loadmore unselect")[0].getAttribute("data-comments");
+    if (CantidadDeComentariosNuevos >= 1) {
+      document.getElementsByClassName("commentsVoxCount loadmore unselect")[0].click();
+    }
+    if (Contador == 1000) {
+      myStopFunction();
+    }
   }
-};
-
+  function myStopFunction() {
+    Contador = 0;
+    clearInterval(myVar);
+  }
+}
