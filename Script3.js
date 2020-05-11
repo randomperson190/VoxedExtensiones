@@ -1,14 +1,12 @@
 // ==UserScript==
-// @name         Voxed - Control+Q escribir Flechita (>)
+// @name         Voxed - [Control+Enter enviar comentario + Control+Q escribir Flechita (>)]
 // @namespace    http://tampermonkey.net/
-// @version      0.2
+// @version      0.3
 // @description  try to take over the world!
 // @author       You
-// @include      /.*www.voxed.net/[a-z]{3}/.*\
+// @include      /.*voxed.net/[a-z]{3}/.*\
 // @grant        none
 // @require      http://code.jquery.com/jquery-3.4.1.min.js
-// @updateURL    https://raw.githubusercontent.com/randomperson190/VoxedExtensiones/master/Script3.js
-// @downloadURL  https://raw.githubusercontent.com/randomperson190/VoxedExtensiones/master/Script3.js
 // ==/UserScript==
 
 var PosicionActual;
@@ -23,6 +21,10 @@ $("#commentTextarea").on("click mousedown mouseup dblclick keyup keypress textIn
   PosicionActual = e.target.selectionStart;
 });
 document.onkeyup = function (e) {
+  // ### Control + Enter ### - https://keycode.info/
+  if (e.ctrlKey && e.which == 13) {
+    document.querySelectorAll(".buttonPress.newComment")[0].click();
+  }
   // ### Control + Q ### - https://keycode.info/
   if (e.ctrlKey && e.which == 81) {
     TextoActual = document.getElementById("commentTextarea").value;
