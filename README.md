@@ -8,7 +8,7 @@ https://addons.mozilla.org/es/firefox/addon/tampermonkey/
 
 ---------------------------------------------------------------------------
 
-#### • Script1: Botón [AutoUpdate + EscribirFlechita (>)]
+#### • Script1: Botón [AutoUpdate y EscribirFlechita (>)]
 *Agrega un 3er botón para constantemente actualizar los comentarios en el Vox si es clickeado. Y agrega un 4to botón para escribir una flecita (>) para quienes no posean el caracter en el teclado.*
 
 
