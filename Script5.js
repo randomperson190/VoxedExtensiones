@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Voxed - Ir a Comentario [Primero / Último]
 // @namespace    http://tampermonkey.net/
-// @version      0.1
+// @version      0.2
 // @description  try to take over the world!
 // @author       You
 // @include      /.*www.voxed.net/[a-z]{3}/.*\
