@@ -3,7 +3,7 @@ https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldm
 
 ---------------------------------------------------------------------------
 
-#### • Script1: Botón AutoUpdate + EscribirFlechita (>)
+#### • Script1: Botón [AutoUpdate + EscribirFlechita (>)]
 *Agrega un 3er para constantemente actualizar los comentarios en el Vox al ser clickeado. Y agrega un 4to para escribir una flecita (>) para quienes no posean el caracter en el teclado.*
 
 
@@ -11,11 +11,11 @@ https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldm
 *Autoclickea en cargar comentarios al acabar de haber envíado tu comentario al Vox*
 
 
-#### • Script3: ControlQ escribir Flechita (>):**
+#### • Script3: Control+Q escribir Flechita (>):**
 *Con Control+Q escribe el caracter (>)*
 
 
-#### • Script4: ControlEnter enviar comentario:
+#### • Script4: Control+Enter enviar comentario:
 *Permite hacer Control+Enter para enviar el comentario, también funciona con Control+NumpadIntro*
 
 
