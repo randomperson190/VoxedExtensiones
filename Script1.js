@@ -1,10 +1,10 @@
 // ==UserScript==
 // @name         Voxed - Botón [AutoUpdate + EscribirFlechita (>)]
 // @namespace    http://tampermonkey.net/
-// @version      0.4
+// @version      0.5
 // @description  try to take over the world!
 // @author       You
-// @include      /.*voxed.net/[a-z]{3}/.*\
+// @include      /.*voxed.net/.*/.*\
 // @grant        none
 // @require      http://code.jquery.com/jquery-3.4.1.min.js
 // @updateURL    https://raw.githubusercontent.com/randomperson190/VoxedExtensiones/master/Script1.js
