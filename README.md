@@ -9,7 +9,7 @@ https://addons.mozilla.org/es/firefox/addon/tampermonkey/
 ---------------------------------------------------------------------------
 
 #### • Script1: Botón [AutoUpdate y EscribirFlechita (>)]
-*Agrega un 3er botón para constantemente actualizar los comentarios en el Vox si es clickeado. Y agrega un 4to botón para escribir una flecita (>) para quienes no posean el caracter en el teclado.*
+*Agrega un 3er botón para constantemente actualizar los comentarios en el Vox si es clickeado. Y agrega un 4to botón para escribir una flecita (>), para quienes no posean el caracter en el teclado.*
 
 
 #### • Script2: Autocargar nuevos comentarios al clickear en Comentar
@@ -20,4 +20,4 @@ https://addons.mozilla.org/es/firefox/addon/tampermonkey/
 *Permite hacer Control+Enter para enviar el comentario, también funciona con Control+NumpadIntro. Y permite hacer Control+Q para escribir el caracter (>)*
 
 #### • Script4: Ir a Comentario Primero / Último
-*Agrega 2 flechas a la derecha de Categorias. Sea para dirigirse rápidamente al primer o último comentario del Vox*
+*Agrega 2 flechas a la derecha de Categorias. Pueden utilizarse para dirigirse rápidamente al primer o último comentario del Vox*
