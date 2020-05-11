@@ -16,7 +16,7 @@ https://addons.mozilla.org/es/firefox/addon/tampermonkey/
 *Autoclickea en cargar comentarios al enviar tu comentario al Vox*
 
 
-#### • Script3: [Control+Enter enviar comentario + Control+Q escribir Flechita (>)]
+#### • Script3: [Control+Enter enviar comentario y Control+Q escribir Flechita (>)]
 *Permite hacer Control+Enter para enviar el comentario, también funciona con Control+NumpadIntro. También Control+Q para escribir el caracter (>)*
 
 #### • Script4: Ir a Comentario Primero / Último
