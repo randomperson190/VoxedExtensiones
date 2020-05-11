@@ -17,7 +17,7 @@ https://addons.mozilla.org/es/firefox/addon/tampermonkey/
 
 
 #### • Script3: [Control+Enter enviar comentario y Control+Q escribir Flechita (>)]
-*Permite hacer Control+Enter para enviar el comentario, también funciona con Control+NumpadIntro. También Control+Q para escribir el caracter (>)*
+*Permite hacer Control+Enter para enviar el comentario, también funciona con Control+NumpadIntro. Y permite hacer Control+Q para escribir el caracter (>)*
 
 #### • Script4: Ir a Comentario Primero / Último
 *Agrega 2 flechas a la derecha de Categorias. Sea para dirigirse rápidamente al primer o último comentario del Vox*
