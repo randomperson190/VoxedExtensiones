@@ -7,6 +7,8 @@
 // @include      /.*www.voxed.net/[a-z]{3}/[a-z].*\
 // @grant        none
 // @require      http://code.jquery.com/jquery-3.4.1.min.js
+// @updateURL    https://raw.githubusercontent.com/randomperson190/VoxedExtensiones/master/Script1.js
+// @downloadURL  https://raw.githubusercontent.com/randomperson190/VoxedExtensiones/master/Script1.js
 // ==/UserScript==
 
 ///////////////////////////////////////////////
