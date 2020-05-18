@@ -21,3 +21,9 @@ https://addons.mozilla.org/es/firefox/addon/tampermonkey/
 
 #### • Script4: Ir a Comentario Primero / Último
 *Agrega 2 flechas a la derecha de Categorias. Pueden utilizarse para dirigirse rápidamente al primer o último comentario del Vox*
+
+---------------------------------------------------------------------------
+
+### Ideas futuras ###
+- Autoselect al comentario
+- Autoselect al comentario luego de quotear un ID ajeno
