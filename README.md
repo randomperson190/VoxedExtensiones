@@ -25,5 +25,5 @@ https://addons.mozilla.org/es/firefox/addon/tampermonkey/
 ---------------------------------------------------------------------------
 
 ### Ideas futuras ###
-- Autoselect al comentario
-- Autoselect al comentario luego de quotear un ID ajeno
+- Autoselect al EscribirComentario al abrir un Vox
+- Autoselect al EscribirComentario luego de quotear un ID ajeno
