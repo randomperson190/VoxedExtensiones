@@ -25,5 +25,6 @@ https://addons.mozilla.org/es/firefox/addon/tampermonkey/
 ---------------------------------------------------------------------------
 
 ### Ideas futuras ###
-- Autoselect al EscribirComentario al abrir un Vox.
-- Autoselect al EscribirComentario al quotear un ID ajeno.
+- Autoselect a la CajaDeComentarios al abrir un Vox.
+- Autoselect a la CajaDeComentarios al quotear un ID ajeno.
+- Reimplementar Control+Q para que haga click en "cargar nuevos comentarios" y reponga el select donde quedó.
