@@ -28,3 +28,4 @@ https://addons.mozilla.org/es/firefox/addon/tampermonkey/
 - *~~Autoselect a la CajaDeComentarios al abrir un Vox.~~ No es conveniente si se quieren utilizar las flechitas para desplazarse.*
 - *~~Autoselect a la CajaDeComentarios al quotear un ID ajeno.~~ No es conveniente si se quieren utilizar las flechitas para desplazarse.*
 - *Reimplementar Control+Q para que haga click en "cargar nuevos comentarios" y reponga el select donde quedó.*
+- *Que se puedan marcar leídas todas las notificaciones desde un botonsito.*
