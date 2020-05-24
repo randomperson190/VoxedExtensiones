@@ -30,3 +30,4 @@ https://addons.mozilla.org/es/firefox/addon/tampermonkey/
 - *Reimplementar Control+Q para que haga click en "cargar nuevos comentarios" y reponga el select donde quedó.*
 - *Que se puedan marcar leídas todas las notificaciones desde un botonsito.*
 - *Deshabilitar panel de Mensajes Globales.*
+- Corregir a la actualización de comentarios para que solo sea cuando luego de la ruedita al comentar
